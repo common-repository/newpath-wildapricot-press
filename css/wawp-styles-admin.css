@@ -1,0 +1,66 @@
+/* For computer desktop screen */
+@media only screen and (min-width: 960px) {
+	.waSettings {
+		display: flex;
+	}
+}
+
+.wap-error, .wap-exception {
+	color: red;
+}
+
+.wap-success {
+	color: green;
+}
+
+/* Width for WA authorization credentials input boxes */
+.wap-wa-auth-creds {
+	width: 75%;
+}
+
+.license_key {
+	width: 20%;
+}
+
+@media only screen and (max-width: 1200px) {
+	.wap-wa-auth-creds {
+		width: 100%;
+	}
+	
+	.license_key {
+		width: 20%;
+	}
+}
+
+#wawp_restricted_message_textarea {
+	width: 80%;
+	height: 20em;
+}
+
+/* For mobile screen */
+@media only screen and (max-width: 600px) {
+	#wawp_restricted_message_textarea {
+		width: 100%;
+	}
+
+	.loginChild {
+		width: 100%;
+	}
+}
+
+/* Indent for checkboxes */
+.wawp_case_level {
+	margin-left: 8% !important;
+}
+.wawp_case_group {
+	margin-left: 8% !important;
+}
+
+ul.wawp_list {
+	list-style-type: disc;
+	margin-left: 5%;
+}
+
+.form-table th {
+	width: 100px;
+}
